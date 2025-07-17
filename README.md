@@ -1,2 +1,36 @@
-# -Emotion-Detection-Using-a-Custom-Deep-Learning-Model-with-a-Web-Based-GUI
-Developed a custom deep learning model for emotion detection from facial images, built from scratch without relying on pretrained models. The project followed a structured guide, detailing steps like data preprocessing (resizing, normalization, augmentation) and designing the CNN architecture with convolutional layers, max-pooling, and batch normalization for feature extraction. A web-based GUI was integrated, allowing users to upload images for real-time emotion detection via the trained model. The guide served as a comprehensive framework for constructing and fine-tuning the model from the ground up, ensuring a thorough understanding of the entire deep learning and web development process.
+# 😊 Emotion Detection Using Custom Deep Learning Model
+
+A full-featured desktop application for real-time **emotion detection** using facial expressions. This project integrates a custom-trained CNN model, real-time webcam inference, and a web-based GUI built using **Tkinter** and **OpenCV**.
+
+---
+
+## ⚙️ Features
+
+- ✅ Detect emotions from webcam in real-time
+- ✅ Upload image and predict emotion
+- ✅ Beautiful and modern GUI (Tkinter)
+- ✅ Highlights detected faces with labels
+- ✅ Uses MTCNN for accurate face detection
+- ✅ Built without pretrained emotion models — fully custom trained
+
+---
+
+## 🛠 Technologies Used
+
+- ⚛️ `Tkinter` — GUI interface
+- 🤖 `TensorFlow / Keras` — Deep learning model
+- 📷 `OpenCV` — Camera and image processing
+- 🧠 `MTCNN` — Face detection
+- 📊 `NumPy` — Numerical operations
+- 🌈 `PIL (Pillow)` — Image display and handling
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/emotion-detection-gui.git
+cd emotion-detection-gui
+```
